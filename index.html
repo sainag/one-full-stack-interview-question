@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Interview Question By SN</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+  <script src="javascript/world.js"></script>
+  <link href="css/world.css" rel="stylesheet"/>
+  <script>
+    $(document).ready(function(){
+	  getWorld();
+	});
+  </script>
+</head>
+<body>
+  <fieldset>
+    <legend>World:</legend>
+    Country: <input type="text" id="country" autocomplete="off"/>
+    City: <input type="text" id="city" autocomplete="off"/>
+    <button onClick="addToWorld()">Add To World</button>
+  </fieldset>
+  <section id="world">
+      
+  </section>
+</body>
+</html>
